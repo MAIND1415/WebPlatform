@@ -50,6 +50,7 @@ Please go to
 and create an account then follow and complete the following course:
 
 	http://www.codecademy.com/tracks/web
+	http://www.codecademy.com/en/tracks/javascript
 	
 **Please send me your username via email**
 
