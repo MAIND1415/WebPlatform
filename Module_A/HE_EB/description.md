@@ -5,4 +5,12 @@ authorsNames: Erik Bio, Hanne Eriksen
 
 For several reasons, drinking water throughout the day is a good habit and it's vital for health.
 
-The application is essentially a diary, where the user can register his physical activity and the amount of water he drinks day by day. A tool like a bottle the user can easily carry and with a well known capacity, would be very useful for measuring. Depending on his weight, gender and physical activity, at the beginning of the day he will get a suggested number of bottles to drink. During the day he will put a check for each bottle he will drink. Notifications At the end of the day the effective water intake will be compared with the suggested one. The goal for the user is to get closer and closer to the daily water requirement suggested by the application.
+The application is essentially a diary, where the user can register his physical activity and the amount of water he drinks day by day.
+A tool like a bottle that the user can always and easily take with him and featuring a well known capacity, is very useful to obtain a precise measuring.
+Depending on his weight, gender and physical activity, at the beginning of every day he will be suggested about the number of bottles he should drink.
+During the day, the user must put a check mark for each bottle he drinks.
+Notifications may be sent to the user in different ways, and specially in certain key-moments (awakening, morning break, lunchtime, etc.).
+At the end of each day, the actual water intake will be compared with the suggested one.
+The goal for the user is to bring these values as closer as possible each other, satisfy the daily water requirementis in order to achieve a better lifestyle.
+Since the process will be tracked, the user will obtain a graphical representation of the trend.
+The proximity/remoteness from the goal will be always under control thanks to a graphical indicator.
