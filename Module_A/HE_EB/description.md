@@ -1,27 +1,20 @@
-<h4>projectName:</h4>
-iDro
+#drinkUp!
 
-<h4>authorsNames:</h4>
-  <ul>
-    <li>Erik Bio</li>
-    <li>Hanne Eriksen</li>
-  </ul>
+###authorsNames:
+- Erik Bio
+- Hanne Eriksen
 
-<h4>course:</h4>
+###course:
 2.3 The Web Platform for Interaction Designers
 
-<h4>teacher:</h4>
-  <ul>
-    <li>Fabio Franchino</li>
-  </ul>
+###teacher:
+- Fabio Franchino
 
-<h4>alternativeProjectNames:</h4>
-  <ol>
-    <li>Hey2O</li>
-    <li>H2U</li>
-    <li>waterTracker</li>
-    <li>Drink App/Up!</li>
-  </ol>
+###alternativeProjectNames:
+- Hey2O
+- H2U
+- waterTracker
+- iDro
 
 <hr>
 
