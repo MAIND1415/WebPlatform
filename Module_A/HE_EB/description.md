@@ -16,7 +16,7 @@
 - waterTracker
 - iDro
 
-<hr>
+---
 
 For several reasons, drinking water throughout the day is a good habit and it's vital for health.
 
