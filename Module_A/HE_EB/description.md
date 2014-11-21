@@ -20,6 +20,7 @@ iDro
     <li>Hey2O</li>
     <li>H2U</li>
     <li>waterTracker</li>
+    <li>Drink App/Up!</li>
   </ol>
 
 <hr>
