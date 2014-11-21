@@ -1,11 +1,13 @@
-projectName: waterTracker
+projectName:   iDro
+
+alternativeNames:	Hey2O, H2U, waterTracker
 
 authorsNames: Erik Bio, Hanne Eriksen
 
 
 For several reasons, drinking water throughout the day is a good habit and it's vital for health.
 
-The application is essentially a diary, where the user can register his physical activity and the amount of water he drinks day by day.
+iDro is essentially a diary, where the user can register his physical activity and the amount of water he drinks day by day, using his own devices, specially a smartphone.
 
 A tool like a bottle that the user can always and easily take with him and featuring a well known capacity, is very useful to obtain a precise measuring.
 
@@ -17,7 +19,7 @@ Notifications may be sent to the user in different ways, and specially in certai
 
 At the end of each day, the actual water intake will be compared with the suggested one.
 
-The goal for the user is to bring these values as closer as possible each other, satisfy the daily water requirementis in order to achieve a better lifestyle.
+The goal for the user is to bring these values as closer as possible each other, satisfying the daily water requirement in order to achieve a better lifestyle.
 
 Since the process will be tracked, the user will obtain a graphical representation of the trend.
 
