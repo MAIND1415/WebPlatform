@@ -1,13 +1,32 @@
-projectName:   iDro
+<h4>projectName:</h4>
+iDro
 
-alternativeNames:	Hey2O, H2U, waterTracker
+<h4>authorsNames:</h4>
+  <ul>
+    <li>Erik Bio</li>
+    <li>Hanne Eriksen</li>
+  </ul>
 
-authorsNames: Erik Bio, Hanne Eriksen
+<h4>course:</h4>
+2.3 The Web Platform for Interaction Designers
 
+<h4>teacher:</h4>
+  <ul>
+    <li>Fabio Franchino</li>
+  </ul>
+
+<h4>alternativeProjectNames:</h4>
+  <ol>
+    <li>Hey2O</li>
+    <li>H2U</li>
+    <li>waterTracker</li>
+  </ol>
+
+<hr>
 
 For several reasons, drinking water throughout the day is a good habit and it's vital for health.
 
-iDro is essentially a diary, where the user can register his physical activity and the amount of water he drinks day by day, using his own devices, specially a smartphone.
+<em>iDro</em> is essentially a diary, where the user can register his physical activity and the amount of water he drinks day by day, using his own devices, specially a smartphone.
 
 A tool like a bottle that the user can always and easily take with him and featuring a well known capacity, is very useful to obtain a precise measuring.
 
