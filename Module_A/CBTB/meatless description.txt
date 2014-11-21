@@ -1,0 +1,23 @@
+meatless
+
+Eat less meat – become a flexitarian – or even a vegetarian
+
+
+A multitude of recent studies have shown that a wide range of health benefits arise from adopting a diet with less meat. People on vegan or vegetarian diets have been found to have a substantially reduced risk of diabetes, cancer, obesity and cardiovascular disease. Studies have even shown that by just reducing meat intake, such health risks are significantly lowered compared to regular and heavy meat eaters.
+
+In addition to that, today’s meat production industry system has an immense impact on the environment. The United Nations estimated that grain currently reserved for cattle feed could essentially eliminate famine globally. Moreover, animal farming is consuming much water and  surpasses transportation emissions in contributing to a fifth of the world’s greenhouse gases.
+
+The industrial meat production is often known for the bad conditions of livestock. Not to forget food scandals like the BSE disease or antibiotics in our meat.
+
+All these issues conduct more and more people to a conscious and sustainable nutrition,  with less meat or ideally without it completey. If you don’t want to renounce meat entirely, you can try to reduce it, beginning not eating meat one day of the week, increasing time by time. Movements like “meatless/meatfree Monday” (or Thursday in Germany and Belgium) advise a moderate consumption of meat, preferring biological products.
+
+meatless is an App which helps people to eat less meat and more vegetables. The user has the possibility to control his meat consumption and to set goals to reach. He will have an overview about his eating habits and a feedback on environment and health benefits of his progress. A competition with friends or between cities can increase his motivation. 
+
+He will be introduced by a explanation why eating less meat is helpful for him and for the environment and he will get to know which kind of meat has a lower impact.
+
+The user will also find general information about nutritional issues in a vegetarian diet, like food that supplies protein, iron and vitamins that normally are provided by meat, and he will find links to sites with delicious vegetarian recipes, which can be voted by the community. 
+
+The target are people that are interested in a sustainable and healthy way of life, they like nature and have decided to contribute to her preservation. They range from teenagers or young adults over mid aged singles or families up to open minded pensioners with a smartphone. They are mostly living in small or big cities, maybe some of them also in the countryside. 
+
+As the “meatless Monday” (Thursday) is a movement based in the USA and Europe, the design of the app will consider mainly these regions.
+
