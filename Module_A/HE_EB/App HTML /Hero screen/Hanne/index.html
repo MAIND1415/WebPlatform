@@ -1,121 +1,73 @@
-# Mobile WebApp basic Layout
+<!DOCTYPE html>
+<html lang="en">
 
+    
+    <head>
 
-## HTML
+        <meta name="viewport" content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0' />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="mobile-web-app-capable" content="yes" />
 
-The basic HTML document
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        
+    
+    </head>
 
-	<html>
-	
-		<head>
-		</head>
-		
-		<body>
-		</body>
-		
-	</html>
-	
-	
-The required meta tag for Mobile browsers
+    <body>
+        <img src="shutterstock_51731122.jpg" alt="Mountain View" style="width:304px;height:228px">
+        
+        <header>
+            <div class="nav-btn"></div>
+            <h1>Drink up!</h1>
+            <div class="nav-btn"></div>
+        </header>
+        
+        <article>
+            <p>How many glasses of water have you been drinking today?</p>
+<form>
+<input type="radio" name="Date" value="1 glass" checked> 1 glass
+<br>
+<input type="radio" name="Date" value="2 glass"> 2 glass
+<br>  
+<input type="radio" name="Date" value=" glass" checked> 3 glass
+<br>
+<input type="radio" name="Date" value="4 glass"> 4 glass
+</form>
+        
+       <p></p>
+       <p></p>   
+       <p></p>
+       <p></p> 
+            
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<path fill="#0E0F0F" d="M27.841,14.852h0.107c0.259,0,0.487-0.104,0.673-0.256c0.731,1.038,1.933,1.721,3.298,1.721
+		c1.365,0,2.567-0.683,3.299-1.721c0.187,0.153,0.414,0.256,0.673,0.256h0.107c0.595,0,1.076-0.482,1.076-1.076v-3.043
+		c0-0.574-0.451-1.038-1.018-1.07c-0.562-1.75-2.203-3.02-4.138-3.02c-1.934,0-3.577,1.271-4.139,3.02
+		c-0.565,0.032-1.015,0.496-1.015,1.07v3.043C26.766,14.37,27.246,14.852,27.841,14.852z M31.919,7.289
+		c1.615,0,2.988,1.041,3.493,2.485c-0.081,0.041-0.154,0.093-0.223,0.152c-0.733-1.018-1.922-1.686-3.271-1.686
+		c-1.349,0-2.537,0.668-3.271,1.686c-0.068-0.059-0.141-0.111-0.222-0.152C28.931,8.33,30.305,7.289,31.919,7.289z"/>
+	<path fill="#0E0F0F" d="M40.939,9.156c-0.525,3.617-1.959,6.808-4.252,9.388c-1.467-0.702-6.375-2.543-11.534,1.133
+		c-0.64,0.231-1.273,0.357-1.702,0.153c-0.363-0.173-0.276-1.47-0.254-1.932c0.131-2.731,1.334-5.593,2.503-8.027
+		c1.192-2.48-2.504-4.656-3.701-2.165c-1.75,3.645-3.564,8.046-2.994,12.17c0.561,4.056,3.792,4.521,6.921,3.791l0.34,1.513
+		l-0.008,3.11L26.23,43.23v11.854c0,1.274,0.934,2.31,2.245,2.31c1.312,0,2.376-1.033,2.376-2.31V38.143h2.098
+		c0,3.969,0,13.027,0,16.998c0,2.764,4.287,2.764,4.287,0c0-3.971,0-7.938,0-11.908l0.182-14.97c0.002-1.43,0.003-2.707,0.004-3.595
+		l-0.041-0.868c4.158-3.373,6.903-8.076,7.693-13.503C45.467,7.593,41.336,6.429,40.939,9.156z"/>
 
-	<meta name="viewport" content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0' />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="mobile-web-app-capable" content="yes" />
-	
-	
+</g>
+</svg>
 
-## CSS
+        </article>
+        
+        <footer>
+            <div class="footer-tool">
+                <div class="btn">Health <br> benefits</div>
+                <div class="btn">B</div>
+                <div class="btn">C</div>
+            </div>
+        </footer>
+    </body>
 
-### Resets and Defaults
-
-	* {
-		user-select: none;
-		box-sizing: border-box;
-	}
-	
-	html, body {
-		padding: 0;
-		margin: 0;
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-		display:flex;
-		flex-direction:column;
-	}
-	
-## Helper selectors
-
-Add scroll behaviour to container with momentum
-
-	.myContainer{
-		overflow-x:auto;
-  		-webkit-overflow-scrolling: touch;
-	}
-
-
-## Flex
-
-Flex is a powerful CSS module that let to layout everything in efficient way (means without hacks). It is not ready for production websites but it is perfect for prototyping purposes.
-
-Here some nice articles about it:
-
-[A Complete Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-[Solved by Flexbox](http://philipwalton.github.io/solved-by-flexbox/)
-
-Example: to center horizontally and vertically children in container:
-
-	.myContainer{
-		display: flex;
-		justify-content:center;
-		align-items:center;
-	}
-
-
-## Best Practices
-
-Use an external CSS file if you are in local development
-
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
-	
-	
-	
-# SVG
-
-### Fix wrong calculated height in older webkit
-
-Some older webkit calculate the height of svg with fluid width.
-This is the fix if you want to show fluid svg on older webkit (like iOS7 or the build-in Android browser)
-
-Add this css rules
-
-	object {
-		width: 100%;
-		display: block;
-		height: auto;
-		position: relative;
-		/* This is the ratio percentage (100% means square, 50% rect with height = width/2 and so on)
-		padding-top: 100%;
-	}
-	
-	svg {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-	
-And the svg must be contained in object tag like:
-
-	<object>
-		<svg>...</svg>
-	</object>
-	
-
-There also a Javascript way to do the same:
-
-[A vanilla JavaScript fix (of sorts) for responsive SVGs in Safari and some other WebKit browsers.](https://gist.github.com/benfrain/5880387#file-jsfixforresponsivesvgsinsafari-js)
+</html>
