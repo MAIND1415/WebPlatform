@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta name="viewport" content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0' />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="mobile-web-app-capable" content="yes" />
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        
+        <script src="lib/jquery-2.1.1.min.js"></script>
+        <script src="lib/velocity.min.js"></script>
+
+    </head>
+
+    <body>
+        
+        <header>
+            Header
+        </header>
+        
+        <article class="scroll">
+            
+            <svg version="1.1" id="first" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 1133.424 694.778" enable-background="new 0 0 1133.424 694.778"
+	 xml:space="preserve">
+<rect fill="#455962" width="1133.424" height="694.778"/>
+<path fill="#FFFFFF" d="M684.712,353c0,6.627-5.373,12-12,12h-212c-6.627,0-12-5.373-12-12V141c0-6.627,5.373-12,12-12h212
+	c6.627,0,12,5.373,12,12V353z"/>
+<text transform="matrix(1 0 0 1 249.8955 501)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Here my prototype App!</text>
+</svg>
+
+            <div class="button col1">Scene 1</div>
+            
+            <div class="button col2">Scene 2</div>
+            
+            <div class="button col3">Scene 3</div>
+            
+            <div class="button col2">Scene 4</div>
+            
+            <div class="button col1">Scene 5</div>
+            
+        </article>
+        
+        <footer>
+            Footer
+        </footer>
+        
+        <script>
+            
+        console.log('Hei!');
+            
+            
+        $('svg')
+            .velocity({opacity:[1, 0]}, {duration:3000})
+            .velocity({opacity:[0, 1]}, {duration:3000})
+            //.velocity({opacity:[1, 0]}, {duration:3000})
+            .velocity({opacity:[1, 0]}, {duration:3000})
+            .velocity({opacity:[1, 0]}, {duration:3000})
+            
+         $('.button')
+            .velocity({opacity:[1, 0], translateY:[0, 100]}, 
+                      {duration:1000, delay:function(i, t){ }});
+        
+        </script>
+        
+    </body>
+
+</html>

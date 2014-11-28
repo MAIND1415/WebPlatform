@@ -1,8 +1,18 @@
+# Some References
+
+[Creating Animations and Interactions with Physical Models](http://iamralpht.github.io/physics/)
+
+[Motion Experiments](http://www.michaelvillar.com/motion)
+
+[Interface Prototyper](http://presentplus.homerun.hr/interface-prototyper-1)
+
+---
+
 # PrefixFree
 
 Make your cutting-edge CSS code compatible with mobile browser using the js library [PrefixFree](http://leaverou.github.io/prefixfree/).
 
-
+---
 
 # Working with SVG
 
@@ -21,10 +31,10 @@ Make your cutting-edge CSS code compatible with mobile browser using the js libr
 
 	
 
-There also a Javascript way to do the same:
+There also a Javascript way to do the same (to be tested):
 
 [A vanilla JavaScript fix (of sorts) for responsive SVGs in Safari and some other WebKit browsers.](https://gist.github.com/benfrain/5880387#file-jsfixforresponsivesvgsinsafari-js)
 
 
 
-# Animate SVG with JQuery and Velocity libraries
+

@@ -1,0 +1,18 @@
+<svg version="1.1" id="first" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  viewBox="0 0 1133.424 2311.444" enable-background="new 0 0 1133.424 2311.444"
+	 xml:space="preserve">
+<rect fill="#455962" width="1133.424" height="694.778"/>
+<rect y="707.334" fill="#00ABBF" width="1133.424" height="310.777"/>
+<rect y="1030.667" fill="#79BF00" width="1133.424" height="310.777"/>
+<rect y="1354" fill="#FFC81F" width="1133.424" height="310.777"/>
+<rect y="1677.334" fill="#BF4B00" width="1133.424" height="310.777"/>
+<rect y="2000.667" fill="#646464" width="1133.424" height="310.777"/>
+<path fill="#FFFFFF" d="M684.712,353c0,6.627-5.373,12-12,12h-212c-6.627,0-12-5.373-12-12V141c0-6.627,5.373-12,12-12h212
+	c6.627,0,12,5.373,12,12V353z"/>
+<text transform="matrix(1 0 0 1 249.8955 501)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Here my prototype App!</text>
+<text transform="matrix(1 0 0 1 456.6289 877)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Scene 1</text>
+<text transform="matrix(1 0 0 1 456.6289 1209)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Scene 2</text>
+<text transform="matrix(1 0 0 1 456.6289 1529)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Scene 3</text>
+<text transform="matrix(1 0 0 1 456.6289 1849)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Scene 4</text>
+<text transform="matrix(1 0 0 1 456.6289 2177)" fill="#FFFFFF" font-family="'ArialMT'" font-size="60">Scene 5</text>
+</svg>
