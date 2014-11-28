@@ -83,15 +83,24 @@ article{
     display:flex;
     flex-direction: column;
 	align-items:center;
+    background-image: https://placeimg.com/349/480/nature;
 }
 
 form{
     background-color: #ccc;
-    border-color: #3ab5d9;
-    border: 10px;
     width: 200px;
+    height: 400px;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    border:5px solid #3ab5d9;
+    
 
+}
+
+
+article.canvas{
+    display:flex;
+    flex-direction: column;
+	align-items:center;
+    background-image: image(https://placeimg.com/349/480/nature);
 }
