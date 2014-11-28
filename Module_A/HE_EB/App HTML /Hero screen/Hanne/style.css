@@ -31,6 +31,7 @@ header .nav-btn{
     width: 30px;
     height: 30px;
     background-color: #54809b;
+    color: #1ddbeb;
 }
 
 header h4{
@@ -43,7 +44,7 @@ header h1{
     font-size: 40px
     flex: auto;
     text-align: center;
-    color: #3ab5d9;
+    color: #1ddbeb;
 }
 
 
@@ -71,6 +72,7 @@ footer .btn{
     height:80px;
     min-height: 80px;
     
+    
     margin-right: 1px;
 }
 
@@ -80,12 +82,13 @@ article{
 }
 
 form{
-    background-color: #ccc;
+    background-color: #525252;
     width: 200px;
     height: 400px;
     text-align: center;
     padding-top: 20px;
-    border:5px solid #3ab5d9;
+    border:5px solid #fff;
+    opacity: 0.9;
     
 
 }
@@ -113,4 +116,8 @@ align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
     
+}
+
+.btn:hover { 
+    background-color: #1ddbeb;
 }
