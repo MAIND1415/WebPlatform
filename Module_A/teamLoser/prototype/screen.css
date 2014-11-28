@@ -1,1 +1,102 @@
-css
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  color:#fff;
+}
+
+
+
+article .btn{
+    flex:auto;   
+    display:flex;
+    justify-content:center;
+ 	align-items:center;
+  font-size:25px;
+    background-color: #ccc;
+    width: 100%;
+    height:90px;
+    min-height: 90px;
+    
+    margin-right: 1px;
+}
+
+
+
+article{
+      width: 100%;
+
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;    
+    flex:auto;
+    display:flex;
+    flex-direction: column;
+	align-items:center;
+}
+
+
+footer{
+    height:60px;
+    min-height: 60px;
+    background-color: #fff;
+    
+    display:flex;
+    justify-content:center;
+	align-items:center;
+}
+
+footer .footer-tool{
+    display:flex;
+    flex:auto;
+    
+}
+footer .btn{
+    flex:auto;   
+    display:flex;
+    justify-content:center;
+ 	align-items:center;
+   width :100%;
+    background-color: #1d3539;
+    height:60px;
+    min-height: 60px;
+    
+    margin-right: 1px;
+}
+
+#facebook{
+  background: url('http://s27.postimg.org/is4we07jn/Facebook.png'); 
+  }
+
+#candycrush{
+  background: url('http://s30.postimg.org/d1d2h0x8x/candycrush.png'); 
+  }
+
+#pinterest{
+  background: url('http://s11.postimg.org/64gd5qv0j/Pinterest.png'); 
+  }
+
+#twitter{
+  background: url('http://s29.postimg.org/9kjgowy6f/twitter.png'); 
+  }
+
+#instagram{
+  background: url('http://s30.postimg.org/5q3bgavrl/instagram.png'); 
+  }
+
+#spotify{
+  background: url('http://s28.postimg.org/ukdcrqsy5/Spotify.png'); 
+  }
+  
+
+}
