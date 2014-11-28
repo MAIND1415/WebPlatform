@@ -84,3 +84,14 @@ article{
     flex-direction: column;
 	align-items:center;
 }
+
+form{
+    background-color: #ccc;
+    border-color: #3ab5d9;
+    border: 10px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
