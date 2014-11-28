@@ -11,9 +11,10 @@ html, body {
     overflow: hidden;
     display:flex;
     flex-direction:column;
-     font-family: sans-serif;
-    color: #54809b;
+    font-family: sans-serif;
+    color: #fff;
     line-height: 40px;
+
 }
 
 header{
@@ -46,7 +47,6 @@ header h1{
 }
 
 
-
 footer{
     height:80px;
     min-height: 80px;
@@ -67,7 +67,6 @@ footer .btn{
     display:flex;
     justify-content:center;
  	align-items:center;
-   
     background-color: #ccc;
     height:80px;
     min-height: 80px;
@@ -76,14 +75,8 @@ footer .btn{
 }
 
 article{
-    overflow-y:auto;
-    -webkit-overflow-scrolling: touch;
+
     
-    flex:auto;
-    display:flex;
-    flex-direction: column;
-	align-items:center;
-    background-image: https://placeimg.com/349/480/nature;
 }
 
 form{
@@ -98,9 +91,26 @@ form{
 }
 
 
-article.canvas{
+article.scroll{
     display:flex;
     flex-direction: column;
 	align-items:center;
-    background-image: image(https://placeimg.com/349/480/nature);
+    background-image: url(https://placeimg.com/349/480/nature);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+img{
+align-items: center;
+}
+
+-
+.overskrift{
+    background-color: #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
