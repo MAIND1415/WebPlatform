@@ -76,27 +76,47 @@ footer .btn{
 
 #facebook{
   background: url('http://s27.postimg.org/is4we07jn/Facebook.png'); 
+  background-position: center;
+  background-size:cover;
   }
 
 #candycrush{
   background: url('http://s30.postimg.org/d1d2h0x8x/candycrush.png'); 
-  }
+  background-position: center;
+  background-size:cover;
+	
+}
 
 #pinterest{
   background: url('http://s11.postimg.org/64gd5qv0j/Pinterest.png'); 
-  }
+  background-position: center;
+  background-size:cover;
+  
+	
+}
 
 #twitter{
   background: url('http://s29.postimg.org/9kjgowy6f/twitter.png'); 
-  }
+  background-position: center;
+  background-size:cover;
+  
+	
+}
 
 #instagram{
   background: url('http://s30.postimg.org/5q3bgavrl/instagram.png'); 
+  background-position: center;
+  background-size:cover;
+  
   }
 
 #spotify{
   background: url('http://s28.postimg.org/ukdcrqsy5/Spotify.png'); 
-  }
+  background-position: center;
+  background-size:cover;
+  
+	
+}
   
 
 }
