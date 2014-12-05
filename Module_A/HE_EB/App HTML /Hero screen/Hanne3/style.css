@@ -1,0 +1,124 @@
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+header{
+                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1671.5 206.2" enable-background="new 0 0 1671.5 206.2" xml:space="preserve">
+<rect y="0" fill="#00ABB9" width="100%" height="100%"/>
+<path fill="#FFFFFF" d="M1554.8,125.7c-2.9-0.5-2.9-8.3-2.9-8.3s8.4-8.3,10.2-19.5c4.9,0,8-11.9,3-16.1c0.2-4.4,6.3-34.6-24.7-34.6
+	s-24.9,30.2-24.7,34.6c-4.9,4.2-1.9,16.1,3,16.1c1.8,11.2,10.2,19.5,10.2,19.5s-0.1,7.9-2.9,8.3c-9.2,1.5-43.6,16.6-43.6,33.3h57.9
+	h57.9C1598.4,142.3,1564,127.2,1554.8,125.7z"/>
+<text transform="matrix(1 0 0 1 54.537 142.3497)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'BrandonGrotesque-Bold'" font-size="104.3518">DRINK UP</tspan><tspan x="488" y="0" fill="#FFFFFF" font-family="'BrandonGrotesque-Regular'" font-size="104.3518"> HANNE!</tspan></text>
+</svg>
+}
+
+header .nav-btn{
+    width: 30px;
+    height: 30px;
+    background-color: #54809b;
+    color: #1ddbeb;
+}
+
+header h4{
+    flex: auto;
+    text-align: center;
+    color: #888;
+}
+
+header h1{
+    font-size: 40px
+    flex: auto;
+    text-align: center;
+    color: #1ddbeb;
+}
+
+
+footer{
+    height:80px;
+    min-height: 80px;
+    background-color: #eee;
+    
+    display:flex;
+    justify-content:center;
+	align-items:center;
+}
+
+footer .footer-tool{
+    display:flex;
+    flex:auto;
+    
+}
+footer .btn{
+    flex:auto;   
+    display:flex;
+    justify-content:center;
+ 	align-items:center;
+    background-color: #ccc;
+    height:80px;
+    min-height: 80px;
+    
+    
+    margin-right: 1px;
+}
+
+article{
+
+    
+}
+
+form{
+    background-color: #525252;
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    padding-top: 20px;
+    border:5px solid #fff;
+    opacity: 0.9;
+    
+
+}
+
+
+article.scroll{
+    display:flex;
+    flex-direction: column;
+	align-items:center;
+    background-image: url(shutterstock_135374738.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+img{
+align-items: center;
+}
+
+-
+.overskrift{
+    background-color: #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.btn:hover { 
+    background-color: #1ddbeb;
+}
