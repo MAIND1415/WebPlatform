@@ -8,6 +8,9 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     </head>
 
     <body>    
@@ -25,11 +28,9 @@
         <article class="scroll">
             <p></p> 
             
-            <p></p>  
-            
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="200px" y="200px"
 	 viewBox="0 0 808 934" enable-background="new 0 0 808 934" xml:space="preserve">
-<circle opacity="0.71" fill="#FFFFFF" cx="405.4" cy="418.5" r="224.9"/>
+<circle opacity="0.71" fill="#FFFFFF" cx="405.4" cy="418.5" r="224.9" size="200px"/>
 <radialGradient id="SVGID_1_" cx="404.7778" cy="417.9136" r="392.2222" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#FFFFFF"/>
 	<stop  offset="1" style="stop-color:#00ABB9"/>
@@ -40,12 +41,16 @@
 <text transform="matrix(1 0 0 1 260.6972 457.9409)" fill="#515254" font-family="'BrandonGrotesque-Bold'" font-size="112.0635">120 dl</text>
 </svg>
 
-
-      <div style="background-color:#1ddbeb; opacity: 0.9; padding-right: 20px; padding-left: 20px; padding-top: 10px; padding-bottom: 50px;">
+      <div style="background-color:#FFFFFFF; opacity: 100%; padding-right: 20px; padding-left: 20px; padding-top: 0px; padding-bottom: 0px; font-color:#ffffff;">
             <p style="text-aling:center;">HOW MANY GLASSES OF WATER <br> HAVE YOU BEEN DRINKING TODAY?</p>
                 </div>      
 
-            
+  <div data-role="main" class="ui-content">
+    <form method="post" action="demoform.asp">
+      <label for="points">Glasses:</label>
+      <input type="range" name="points" id="points" value="50" min="0" max="20" data-popup-enabled="true">
+      <input type="submit" data-inline="true" value="Submit">
+    </form>
 
 <g>
 	<path fill="#0E0F0F" d="M27.841,14.852h0.107c0.259,0,0.487-0.104,0.673-0.256c0.731,1.038,1.933,1.721,3.298,1.721
@@ -63,12 +68,8 @@
 
 </g>
 </svg> 
-        <p></p> 
-    <p></p> 
-
         </article>
-  
-        
+   
         <footer>
             <div class="footer-tool">
                 <div class="btn"><img src="https://cdn3.iconfinder.com/data/icons/glyph/227/Watter-Drop-512.png" height=80%></div>
