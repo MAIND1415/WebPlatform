@@ -28,3 +28,8 @@ some text
 	}
 		
 > quotation
+
+
+TEST
+
+<a class="jsbin-embed" href="http://jsbin.com/rejapo/1/embed?output">prototypon</a><script src="http://static.jsbin.com/js/embed.js"></script>
